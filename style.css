@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+}
+
+h2 {
+    margin-top: 25px;
+    font-weight: normal;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+input {
+    width: 120px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d3d3d3;
+    text-align: center;
+    outline: none;
+}
+
+p {
+    margin-top: 35px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    width: 92%;
+    margin: 75px auto 0;
+  }
+
+
+
+  .scientists {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.scientists h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
+.scientist-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 94px);
+    gap: 33px 54px;
+    justify-content: center;
+}
+
+.scientist-card {
+    width: 94px;
+    height: 94px;
+    background-color: #d9d9d9;
+    border-radius: 18px;
+}
+
+
+.button-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 17px;
+}
+
+.button-row button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    font-size: 12px;
+    font-family: inherit;
+    padding: 0 20px;
+    box-shadow: 3px 4px 0px #bdbdbd;
+}
+
+
+.button-row button:first-child {
+    width: 355px;
+}
+
+
+.button-row button:last-child {
+    width: 375px;
+}
+
+.last-button {
+    display: block;
+    margin: 17px auto 0;
+    width: 455px;
+    height: 35px;
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+
+    font-size: 12px;
+    font-family: inherit;
+
+    box-shadow: 3px 4px 0px #bdbdbd;
+}
